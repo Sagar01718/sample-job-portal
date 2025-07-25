@@ -1,0 +1,6 @@
+
+<h2>Job Listings</h2>
+{% for job in jobs %}
+  <p>{{ job.title }} | <a href='/apply/{{ job.id }}'>Apply</a></p>
+{% endfor %}
+<a href='/logout'>Logout</a>

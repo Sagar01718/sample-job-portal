@@ -1,0 +1,11 @@
+
+<h2>Admin Dashboard</h2>
+<h3>Jobs</h3>
+{% for job in jobs %}
+  <p>{{ job.title }}</p>
+{% endfor %}
+<h3>Applications</h3>
+{% for app in applications %}
+  <p>{{ app.name }} applied for Job ID {{ app.job_id }} - <a href="{{ app.resume }}">View Resume</a></p>
+{% endfor %}
+<a href='/logout'>Logout</a>

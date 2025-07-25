@@ -1,0 +1,14 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  padding: 40px;
+  text-align: center;
+}
+.form-card {
+  background: white;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
